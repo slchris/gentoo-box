@@ -8,7 +8,6 @@ fi
 chmod +x $SCRIPTS/scripts/*.sh
 
 for script in \
-#  partition   \
   stage3      \
   mounts      \
   resolv.conf \
@@ -19,8 +18,6 @@ for script in \
   grub        \
   network     \
   user        \
-#  vagrant     \
-#  virtualbox  \
   cleanup
 do
   "$SCRIPTS/scripts/$script.sh"  desktop-systemd-mergedusr
