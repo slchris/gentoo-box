@@ -2,8 +2,8 @@
 
 
 
-MIRRORS='https://mirrors.ustc.edu.cn/gentoo/releases/amd64/autobuilds/'
-
+#MIRRORS='https://mirrors.ustc.edu.cn/gentoo/releases/amd64/autobuilds/'
+MIRRORS='https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds'
 
 function stage3_url() {
 

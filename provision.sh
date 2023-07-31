@@ -8,7 +8,7 @@ fi
 chmod +x $SCRIPTS/scripts/*.sh
 
 for script in \
-  partition   \
+#  partition   \
   stage3      \
   mounts      \
   resolv.conf \
@@ -18,11 +18,12 @@ for script in \
   kernel      \
   grub        \
   network     \
-  vagrant     \
-  virtualbox  \
+  user        \
+#  vagrant     \
+#  virtualbox  \
   cleanup
 do
-  "$SCRIPTS/scripts/$script.sh" stage3-amd64-openrc
+  "$SCRIPTS/scripts/$script.sh"  desktop-systemd-mergedusr
 done
 
 echo "All done."
