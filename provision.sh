@@ -18,7 +18,8 @@ for script in \
   grub        \
   network     \
   user        \
-  cleanup
+  cleanup     \
+  make_stage4
 do
   "$SCRIPTS/scripts/$script.sh"  desktop-systemd-mergedusr
 done
