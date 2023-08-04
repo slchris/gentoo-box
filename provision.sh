@@ -18,6 +18,7 @@ for script in \
   grub        \
   network     \
   user        \
+  systemd     \
   cleanup     \
   make_stage4
 do
