@@ -5,5 +5,4 @@ sed -i 's/^#\s*GRUB_CMDLINE_LINUX=.*/GRUB_CMDLINE_LINUX="net.ifnames=0" init=/li
   /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
 emerge networkmanager
-systemctl enable NetworkManager
 EOF
