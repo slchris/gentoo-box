@@ -19,3 +19,4 @@ stage3_url $1
 
 cd /mnt/gentoo
 tar xpf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner
+cd -
